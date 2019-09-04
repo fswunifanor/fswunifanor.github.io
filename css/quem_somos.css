@@ -9,8 +9,9 @@ header{
     text-align: center;
 }
 header img{
-    height: 100px;
-    width: 130px;
+    width: 10%;
+    height: auto;
+    padding-top: 10px;
 }
 .cabeca ul{
     list-style: none;
@@ -57,9 +58,9 @@ main{
     font-family: 'Rubik', sans-serif;
 }
 .primeira-content img{
-    height: 200px;
-    width: 350px;
-    margin-bottom: 25px;
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
 }
 .primeira-content p{
     font-size: 18px;

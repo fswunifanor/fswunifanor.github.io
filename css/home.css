@@ -9,8 +9,9 @@ header{
     text-align: center;
 }
 header img{
-    height: 100px;
-    width: 130px;
+    width: 10%;
+    height: auto;
+    padding-top: 10px;
 }
 .cabeca ul{
     list-style: none;
@@ -36,6 +37,7 @@ header img{
     background: #090957;
     color: white;
 }
+
 /*----------------------------------------------------------------------------------------------------------------------------*/
 
 .banner{
@@ -259,8 +261,11 @@ footer{
         width: 50%;
         float: left;
     }
+    
     .painel-section img{
-        padding-top: 30px;
+        padding-top: 50px;
+        width: 70%;
+        height: auto;
     }
     .atuacoes-painel{
         margin: 1%;
