@@ -153,6 +153,10 @@ footer{
         font-size: 19px;
         
     }
+    .primeira-content img{
+        width: 30%;
+        height: auto;
+    }
 /*----------------------------------------------------------------------------------------------------------------------------*/
     .segunda-content{
         background: #f7f4f4;
