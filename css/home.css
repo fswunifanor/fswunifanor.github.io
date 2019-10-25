@@ -1,286 +1,357 @@
-elementos{
-    --font-family: 'Rubik', sans-serif;
-}
-
-.clearflix::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-
-/*----------------------------------------------------------------------------------------------------------------------------*/
-header{
-    text-align: center;
-}
-
-.cabeca img{
-    width: 15%;
-    height: auto;
-    padding-top: 10px;
-}
-.cabeca ul{
-    list-style: none;
+*{
     margin: 0;
     padding: 0;
-    background: #4896fc;
 }
-.cabeca li{
-    display: inline-block;
-    padding: 0px 10px 5px 5px;
-    margin-top: 10px;
-}
-.cabeca a{
-    padding: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    
-}
-.cabeca a:hover{
-    background: #090957;
-    color: white;
-}
-
-
-/*----------------------------------------------------------------------------------------------------------------------------*/
-
-.banner{
-    background-image: url(../img/pexels.png);
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 600px;
-}
-.banner-text{
-    background-color: rgba(0 , 0, 0, .7);
-    display: inline-block;
-    margin-top: 190px;
-    margin-left: 20px;
-    padding: 30px 10px 0px;
-    border: solid 1px black;
-}
-.banner-text h2{
-    margin: 0;
-    letter-spacing: 2px;
-    color: white;
-    font-size: 36px;
-    text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
-}
-.banner-text p{
-    color: white;
-    margin: 10px 10px;
-    padding-left: 70px;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-family: 'Rubik', sans-serif;
-}
-/*----------------------------------------------------------------------------------------------------------------------------*/
-
-.terceiro-section{
-    text-align: center;
-    padding: 2em;
-    background-color: #ffffff;
-}
-.painel-section{
-    margin-bottom: 30px;
-}
-.painel-section h3{
-    font-family: 'Rubik', sans-serif;
-    font-size: 20px;
-}
-.painel-section p{
-    font-size: 17px;
-    font-family: 'arial', sans-serif;
-}
-.painel-section img{
-    width: 300px;
-}
-/*----------------------------------------------------------------------------------------------------------------------------*/
-
-.quarta-section{
-    padding: 2em;
-    background: #ffffff;
-    text-align: center;
-}
-.quarta-section h3{
-    font-family: 'Rubik', sans-serif;
-    margin-bottom: 50px;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-.atuacoes-painel {
-    margin-bottom: 25px;
-}
-.icones{
-    color: #323269;
-    font-size: 45px;
-}
-.atuacoes-painel h4{
-    font-family: 'Rubik', sans-serif;
-    color: #323269;
-    text-transform: uppercase;
-}
-.atuacoes-painel p{
-    font-family: 'arial', sans-serif
-}
-/*----------------------------------------------------------------------------------------------------------------------------*/
-footer{
-    font-family: var(--font-family);
-    background: #25303e;
-    color: #83969f;
-    text-align: center;
-    padding-bottom: 2em;
-}
-.footer-link{
-    color: #83969f;
-    text-decoration: none;
-    font-family: var(--font-family);
-}
-.footer-menu{
-    background: #303d4c;
-    margin: 0;
-    padding: .4em;
-}
-.icones-redes-sociais{
-    font-size: 20px;
-}
-.footer-menu li{
-    display: inline-block;
-    margin: 0 1em;
-}
-.footer-menu a{
-    font-size: 1.1em;
-    text-decoration: none;
-    color: white; 
-}
-.hidden{
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    opacity: 0;
+.clearflix::after{
+    content: '';
+    clear: both;
     display: block;
 }
-/*----------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 750px){
-    .cabeca img{
+
+
+.navbar img{
+    width: 200px;
+}
+
+.introducao{
+    background-image: url(../img/banner1.jpeg);
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+main{
+/*    padding: 2em 1em;*/
+    text-align: center;
+}
+
+                    /* PRIMEIRO  */
+.primeiro{
+    padding: 1em 2em;
+}
+.primeiro h2{
+    color: #9595ea;
+    font-family: ;
+    border-bottom: solid 1px #9595ea;
+    width: 40%; /*AUMENTAR quando a tela aumentar */
+    padding: 4px 0px;
+    margin: auto;
+    font-size: 26px;
+}
+.historia{
+    margin: 30px 0px 0px;
+}
+.historia h3{
+    color: gray;
+    font-family: ;
+    font-size: 24px;
+    margin: 0px 0px 30px 0px;
+}
+.historia p{
+    font-family: ;
+    font-size: ;
+}
+.historia_img{
+    margin: 50px 0px 50px 0px;
+    max-width: 60%;
+}
+
+                /* SEGUNDO */
+
+.segundo{
+    padding: 1em 2em;
+}
+.text-container h2{
+    color: #9595ea;
+    font-family: ;
+    border-bottom: solid 1px #9595ea;
+    width: 60%; /*AUMENTAR quando a tela aumentar */
+    padding: 4px 0px;
+    margin: auto;
+    font-size: 26px;
+}
+.painel-pai{
+    margin: 40px 0px 0px 0px;
+}
+.painel-filho{
+    margin: 20px 0px 0px 0px;
+}
+.fas {
+    color: #933db9;
+    font-size: 32px;
+}
+.painel-filho h3{
+    color: #933db9;
+    font-size: 24px;
+    margin: 8px 0px 0px;
+    font-family: ;
+}
+.painel-filho p{
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    font-family: ;
+}
+
+
+        /*     terceiro       */
+
+.terceiro{
+    margin: 50px 0px 0px 0px;
+    padding: 1em 2em;
+}
+.text-container h2{
+    color: #9595ea;
+    font-family: ;
+    border-bottom: solid 1px #9595ea;
+    width: 40%; /*AUMENTAR quando a tela aumentar */
+    padding: 4px 0px;
+    margin: auto;
+    font-size: 26px;
+}
+.text-container p{
+    margin-top: 20px;
+    font-family: 
+}
+.row .col.s12 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
+.card {
+  position: relative;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  border-radius: 2px;
+}
+.card-image{
+  max-height: 60%;
+  overflow: hidden;
+
+}
+.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+  max-height: 40%;
+}
+
+.background{
+/*    background-image: url(../img/pexels-photo-1089440.jpeg);*/
+    background-image: url(../img/pexels-photo-248515.png);
+    height: 450px;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+
+
+.quarto{
+    margin: 50px 0px 0px 0px;
+    padding: 1em 2em;
+    text-align: center;
+}
+.equipe-painel{
+    display: block;
+}
+.equipe-painel-objeto{
+    margin: 30px auto;
+    width: 14rem;
+}
+.equipe-painel-objeto i{
+    font-size: 22px;
+    margin: 0px 10px;
+}
+.fa-github{
+    color: black;
+}
+
+
+.quinto{
+    margin: 50px 0px 0px 0px;
+    padding: 1em 2em;
+    text-align: center;
+}
+.projeto-painel-objeto{
+    display: block;
+}
+.projeto-painel-objeto{
+    margin: 30px auto;
+    width: 300px;
+}
+
+
+.projetos-painel-objeto{
+    margin: 30px 0px 40px 0px;
+}
+.projetos-painel-objeto img{
+    max-width: 80%;
+    border-radius: 20px 20px;
+}
+.projetos-painel-objeto h3{
+    font-family: ;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.projetos-painel-objeto p{
+    font-family: ;
+    font-size: 16px;
+} 
+
+.rodape{
+    background-color: #040415;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: ;
+}
+.rodape p:nth-child(1){
+    background-color: #14144b;
+    padding: 4px 0px;
+    font-size: 20px;
+}
+.rodape i:nth-child(1){
+    color: white;
+}
+.rodape i:nth-child(2){
+    margin: 0px 0px 0px 50px;
+}
+.rodape p{
+    margin: 0px;
+    padding: .1em;
+}
+
+.rodape a{
+    color: #c9c5c5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 850px){
+    .nav-img{
+        margin-left: 5%;
+        width: 10%;
+
+    }
+    .navbar-nav{
+        margin: 0px 0px 0px 34%;
+        width: 90%;
+    }
+    .text-container h2{
+        max-width: 30%;
+    }
+    .painel-cards{
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .painel-pai{
+        display: flex;
+    }
+    .card{
+        width: 96%;
+    }
+    .equipe-painel{
+        display: flex;
+        justify-content:flex-start;
+    }
+    .equipe-painel-objeto{
+        width: 18rem;
+    }
+    .projetos-painel{
+        padding: 1em;
+    }
+    .projetos-painel-objeto img{
+        width: 20%;
         float: left;
-        margin-left: 10px;
+        margin: 30px 20px 10px 0px;
     }
-    .cabeca ul{
-        float: right;
-        background: none;
-        margin-top: 30px;
-        margin-right: 20px;
+    .projetos-painel-objeto h3 p{
+        width: 60%;
     }
-    .cabeca a{
-        font-size: 16px;
+   
+}
+@media screen and (min-width: 1300px){
+    .nav-img{
+        margin-left: 8%;
+        width: 10%;
+
     }
-    .cabeca a:hover{
-        background: none;
-        color: black;
-        border-bottom: solid 1px black;
-        padding-bottom: 10px;
-    }
-    /*----------------------------------------------------------------------------------------------------------------------------*/
-    .banner{
-        background-image: url(../img/banner.jpg);
-        height: 500px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .banner-text{
-        padding: 30px 20px 10px 20px;
-        background-color: rgba(0 , 0, 0, .6);
-        margin-top: 230px;
-        margin-left: 30px;
-        border: solid 1px black;
-    }
-    .banner-text h2{
-        font-size: 40px;
-    }
-    .banner-text p{
-        color: white;
-        text-align: center;
-        margin: 10;
-        padding-left: 0;
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-    /*----------------------------------------------------------------------------------------------------------------------------*/
-    .painel-section{
-        margin: auto;
-        width: 45%;
-        float: left;
-    }
-    .painel-section h3{
-        font-family: 'Rubik', sans-serif;
-    }
-    .painel-section p{
-        text-align: left;
-        font-size: 17px;
-        font-family: 'arial', sans-serif;
-    }
-    .painel-section img{
-        height: 150px;
-        padding-top: 20%;
-        padding-left: 30px;
-    }
-    /*----------------------------------------------------------------------------------------------------------------------------*/
-    .atuacoes-painel{
-        width: 29%;
-        margin: 2%;
-        float: left;
-    }
-    .atuacoes-painel p{
-        font-size: 17px;
-        text-align: left;
-        margin-bottom: 20px;
+    .navbar-nav{
+        margin: 0px 0px 0px 53%;
+        width: 90%;
     }
 }
 
-@media screen and (min-width: 1000px){
-    .cabeca a{
-        font-size: 19px;
+
+@media screen and (min-width: 1400px){
+    .nav-img{
+        margin-left: 8%;
+        width: 10%;
+
     }
-    /*----------------------------------------------------------------------------------------------------------------------------*/
-    .banner{
-        background-image: url(../img/banner.jpg);
-        height: 700px;
-        background-size: 100%;
-        background-repeat: no-repeat;
+    .navbar-nav{
+        margin: 0px 0px 0px 53%;
+        width: 90%;
     }
-    .banner-text{
-        background-color: rgba(0 , 0, 0, .8);
-        display: inline-block;
-        margin-top: 340px;
-        margin-left: 80px;
-        padding: 50px 50px 10px 30px;
-        border: solid 1px black;
+    .text-container h2{
+        max-width: 20%;
     }
-    .banner-text p{
-        text-align: center;
-        padding: 0;
-        font-size: 25px;
-        margin-top: 35px;
+
+}
+
+@media screen and (min-width: 2000px){
+    .nav-img{
+        margin-left: 10%;
+        width: 10%;
+
     }
-    /*----------------------------------------------------------------------------------------------------------------------------*/
-    .painel-section{
-        margin: auto;
-        width: 50%;
-        float: left;
-    }
-    
-    .painel-section img{
-        padding-top: 50px;
-        width: 70%;
-        height: auto;
-    }
-    .atuacoes-painel{
-        margin: 1%;
-        width: 30%;
-        float: left;
+    .navbar-nav{
+        margin: 0px 0px 0px 69%;
+        width: 90%;
+        
+        
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

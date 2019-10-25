@@ -1,88 +1,270 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="author" content="thiago campos"/>
-        <meta name="viewport" content="width=device-width"/>
-        <meta name="description" content="Site da Fábrica de Software da Fanor"/>
-        
-        <link href="css/normalize.css" rel="stylesheet"/>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="thiago campos dos santos"/>
+    <meta name="description" content="site da Fábrica de Software para o Centro Universitário Unifanor"/>
+    <meta name="keywords" content="site, fabrica, software, centro universitario unifanor"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--    BOOTSTRAP    -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--    FIM DO BOOTSTRAP    -->
+        <script src="https://kit.fontawesome.com/fffbaac515.js"></script> <!--Icones -->
         <link rel="stylesheet" href="css/home.css" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=PT+Sans|Rubik&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/fffbaac515.js"></script>
-
-            <title>Fabrica de Software</title>
-    </head>
+        <title>Fábrica de Software</title>
+</head>
 <body>
-    <header class="cabeca clearflix">
-        <a href="index.html">
-            <img src="img/Logo_Fabrica.png" alt="logo marca" title="logo marca da fabrica de software"/>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="quem_somos.html">Quem somos</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="contato.html">Contatos</a></li>
-            </ul>
-        </nav>
-    </header>    
-    <section class="banner">
-        <div class="banner-text">
-            <h2>Fábrica de Software</h2>
-            <p>Unifanor Wyden/ Dunas</p>
-        </div>
+    <!--  NAVEGAÇÃO  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <img src="img/logo1.png" alt="" title="" class="nav-img">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#quem_somos">Quem somos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#atuacao">Atuação <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#eventos">Eventos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#equipe">Equipe <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#projetos">Projetos <span class="sr-only">(current)</span></a>
+        </li>
+    </ul>
+  </div>
+</nav>
+<!--   FIM DA NAVEGAÇÃO -->
+    <section class="introducao" id="introducao">
+        <!--  SOMENTE O BANNER MESMO, NADA DE PALAVRAS  -->
     </section>
-    <main>
-    <section class="terceiro-section clearflix">
-        <div class="terceiro-section-completo">
-            <div class="painel-section">
-                <h3>UM POUCO SOBRE A FÁBRICA</h3>
-                <p>A Fábrica de Software trata-se de um iniciativa baseada no modelo de fábrica de software. Hospedada dentro de um ambiente acadêmico oferecido pelo UniFanor Wyden, tem o intuito de construir software personalizado de acordo com a demanda dos clientes. Além disso, oferecemos capacitação para os alunos dos cursos de Tecnologia da Informação através de workshops, minicursos e palestras.
-                </p>
-            </div>
-            <div class="painel-section">
-                <img src="img/logo_wyden.png" class="responsive">
-            </div>
+    
+<main>
+    <section class="primeiro" id="quem_somos">
+        <div class="quem_somos_painel">
+            <h2>Quem Somos</h2>
+                <div class="historia">
+                    <h3>Um pouco sobre a Fábrica</h3>
+                    <p>A Fábrica de Software trata-se de um iniciativa baseada no modelo de fábrica de software. Hospedada dentro de um ambiente acadêmico oferecido pelo UniFanor Wyden, tem o intuito de construir software personalizado de acordo com a demanda dos clientes. Além disso, oferecemos capacitação para os alunos dos cursos de Tecnologia da Informação através de workshops, minicursos e palestras. Qualquer aluno da área da Tecnologia da Informação, poderá ingressar na Fábrica de Software, com isso, o aluno que está começando agora a estudar na instituição, já poderá ter uma noção de como irá ser no decorrer do curso, com conversas com colegas da fábrica.</p>
+                </div>
+                <img src="img/wyden-footer.png" class="historia_img">
         </div>
     </section>
     
-    <section class="quarta-section clearflix">
-            <h3>Atuações da Fábrica</h3>
-        <div class="atuacoes">
-            <div class="atuacoes-painel">
-                <i class="fas fa-book icones"></i>
-                <h4>Ensino</h4>
-                <p>Oferecemos cursos, palestras e workshops para alunos que desejam aprender novas habilidades. Eventos podem ser acompanhados na guia Eventos</p>
+    <section class="segundo" id="atuacao">
+        <div class="atuacao_painel">
+            <div class="text-container">
+                <h2>Atuação da Fábrica</h2>
+            <!--<p>  ALGUMA COISA AQUI </p>-->
             </div>
-            <div class="atuacoes-painel">
-                <i class="fas fa-mobile-alt icones"></i>
-                <h4>Aplicativos</h4>
-                <p>Preocupados com demandas pessoais oferecemos aplicativos para plataforma Android.</p>
-            </div>
-            <div class="atuacoes-painel">
-                <i class="fas fa-laptop-code icones"></i>
-                <h4>Desenvolvimento Web</h4>
-                <p>Visando atender principalmente demandas coorporativas e empresariais a Fábrica de Software trabalha com construção de sites, oferecendo sistemas na plataforma web. Temos o cuidado de trabalhar com responsividade, garantindo que nosso cliente possa ter acesso a sua solução de qualquer lugar a qualquer instante. </p>
-            </div>
-            <!----<div class="atuacoes-painel">
-                <i class="fas fa-code icones"></i>
-                <h4>Construção de sistemas</h4>
-                <p>A Fábrica de Software oferece equipes para construção de sistemas desktop.</p>
-            </div>-->
+                <div class="painel-pai">
+                    <div class="painel-filho">
+                        <i class="fas fa-book"></i>
+                        <h3>Ensino</h3>
+                        <p>Oferecemos cursos, palestras e workshops para alunos que desejam aprender novas habilidades. Eventos podem ser acompanhados na guia Eventos</p>
+                    </div>
+                    <div class="painel-filho">
+                        <i class="fas fa-mobile-alt icones"></i>
+                        <h3>Aplicativos</h3>
+                        <p>Preocupados com demandas pessoais oferecemos aplicativos para plataforma Android.</p>
+                    </div>
+                    <div class="painel-filho">
+                        <i class="fas fa-laptop-code icones" aria-hidden="true"></i>
+                        <h3>Desenvolvimento web</h3>
+                        <p>Visando atender principalmente demandas coorporativas e empresariais a Fábrica de Software trabalha com construção de sites, oferecendo sistemas na plataforma web</p>
+                    </div>
+                </div>
         </div>
     </section>
-    </main>
-    <footer>
-            <ul class="footer-menu">
-                <li><a href="https://github.com/fswunifanor"><i class="fab fa-github icones-redes-sociais"></i><span class="hidden">Github</span></a></li>
-                <li><a href="https://www.instagram.com/fab.software.unifanor"><i class="fab fa-instagram icones-redes-sociais"></i><span class="hidden">Instagram</span></a></li>
-            </ul>
+    
+    
+    <section class="terceiro" id="eventos">
+            <div class="text-container">
+                <h2>Eventos</h2>
+                    <p>Alguns eventos que realizamos são abertos ao público, e outros, são para alunos da Unifanor, indepedente do curso que o aluno realiza, ele poderá partcipar, uma oportunidade de aumentar seu conhecimento e fazer um bom networking.</p>
+            </div>
+            <div class="painel-cards">
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/download.png">
+                        </div>
+                    <div class="card-content">
+                        <h3>Introdução ao Docker</h3>
+                        <p>Workshop com o objetivo de apresentar uma introdução ao uso da ferramenta Docker.</p>
+                        <p><b>Palestrante:</b> Hudson de Melo Nascimento</p>
+                        <p><b>Data:</b> 00/00/00000</p>
+                    </div>
+        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m7">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/download.png">
+                        </div>
+                    <div class="card-content">
+                        <h3>Introdução ao Docker</h3>
+                        <p>Workshop com o objetivo de apresentar uma introdução ao uso da ferramenta Docker.</p>
+                        <p><b>Palestrante:</b> Hudson de Melo Nascimento</p>
+                        <p><b>Data:</b> 00/00/00000</p>
+                    </div>
+                    </div>
+                </div>
+            </div>    
+            </div>   
+    </section>
+    
+    <section class="background">
+        
+    </section>
+    
+    <section class="quarto" id="equipe">
+        <div class="text-container">
+                <h2>Equipe</h2>
+                    <p>Nossa equipe é formada pelos nossos alunos da área da Tecnologia da Informação, de variados semestres, faça parte da nossa quipe de desenvolvedores e seja reconhecido pelo mercado.</p>
+            </div>
+            <div class="equipe-painel">
+                <div class="card equipe-painel-objeto" >
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="card equipe-painel-objeto">
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="card equipe-painel-objeto">
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div class="equipe-painel">
+                <div class="card equipe-painel-objeto">
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
             
-            <p>&copy;Copyright Fábrica de Software</p>
-            <p>Este site foi criado por alunos do Centro Universitário UniFanor Wyden. <br> designer responsável: <a class="footer-link" href="https://github.com/thgcampos">Thiago Campos <i class="fab fa-github icones-redes-sociais"></i><span class="hidden"></span></p>
-    </footer>
+                <div class="card equipe-painel-objeto">
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+            
+                <div class="card equipe-painel-objeto">
+                    <img src="img/img_avatar.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thiago Campos dos Santos</h5>
+                        <p class="card-text">Desenvolvedor Front-End.</p>
+                            <div class="redes-sociais">
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section class="quinto" id="projetos">
+        <div class="text-container">
+                <h2>Projetos</h2>
+                    <p>Nossos projetos são criados pelos integrantes da Fábricante de Software, em companhia com a supervisão de professores. Alguns projetos tem como demanda, a própria Unifanor como também o mercado externo, que podendo se transformar em oportunidade de emprego.</p>
+        </div>
+            <div class="projetos-painel">
+                <div class="projetos-painel-objeto clearflix">
+                    <img src="img/download (3).jpg" alt="" title="">
+                        <h3>GEL - Gestão e Estoque dos Laboratórios - Núcleo Integrado de Saúde</h3>
+                        <p>Esse projeto tem a finalidade de desenvolver um sistema que se chamará GEL – Gestão e Estoque dos Laboratórios – NIS, que será utilizado como proposta para o gerenciamento dos laboratórios. A linguagem adotada para o desenvolvimento será Ruby, que justamente com framework Rails, tem a intensão de demostrar a criação de uma aplicação web, para agilizar, facilitar o trabalho e criar um referencial teórico de desenvolvimento ágil e algumas tecnologias de programação. O Sistema guardará todas as informações em um banco de dados MySql, onde estará disponível para os gestores dos laboratórios e para os professores.</p>
+                        <p><b>Equipe:</b> Jean Dgardany Cavalcante de Lima</p>
+                </div>
+                <div class="projetos-painel-objeto clearflix">
+                    <img src="img/download (4).jpg" alt="" title="">
+                        <h3>AGE - Ambiente para Gerenciamento de Eventos</h3>
+                        <p>Este projeto visa atender a uma demanda interna da instituição. O objetivo é proporcionar um ambiente para gerenciar eventos acadêmicos, organizando calendário e inscrições. O sistema é desenvolvido utilizando a tecnologia PHP.</p>
+                        <p><b>Equipe:</b> Ana Beatriz; Guilherme</p>
+            </div>
+        </div>
+        <div class="projetos-painel">
+                <div class="projetos-painel-objeto clearflix">
+                    <img src="img/download.jpg" alt="" title="">
+                        <h3>RotaTátil</h3>
+                        <p>Primeiro projeto com foco em tecnologias assistivas. O objetivo é integrar um aplicativo móvel a um projeto de mobilidade urbana com foco no auxilio à deficientes visuais. O projeto está sendo desenvolvido utilizando as tecnologias NodeJS e React Native. (Mais detalhes entre em contato)</p>
+                        <p><b>Equipe:</b> Hudson Melo do Nascimento; Igor Lucas Nascimento da Silva; Joziélio Santigo da Silva; Renan Menezes.</p>
+                </div>
 
+
+                            <!-- TA DANDO ERRO -->  
+                <!-- <div class="projetos-painel-objeto">
+                    <img src="img/download (2).jpg" alt="" title="">
+                        <h3>ELoM - Gerenciador de Empréstimo de Equipamentos.</h3>
+                        <p>O projeto ELoM visa atender uma demanda do setor de suporte em TI do Centro Universitário. O projeto encontra-se na fase de levantamento de requisitos, mais detalhes em breve.</p>
+                        <p><b>Equipe:</b> em construção<p>
+            </div> -->
+        </div>
+    </section> 
+</main>  
+    <section class="rodape">
+        <footer>
+            <p><i class="fab fa-github"></i>   <i class="fab fa-instagram"></i></p>
+            <p>&copy;Copyright Fábrica de Software</p>
+            <p>Este site foi criado por alunos do Centro Universitário UniFanor Wyden.</p>
+            <p>designer responsável: <a href="#">Thiago Campos <i class="fab fa-github"></i></a></p> <!--colocar o icone do github e ir para o meu-->
+        </footer>
+    </section>  
+    
+
+<!-- INICIO DO JAVASCRIPT  PARA O NAVBAR -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--FIM DO JAVASCRIPT-->
 </body>
 </html>
