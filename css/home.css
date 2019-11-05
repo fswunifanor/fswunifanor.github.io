@@ -11,6 +11,15 @@
 
 .navbar img{
     width: 200px;
+
+}
+.navbar a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+.navbar a:hover{
+    text-decoration: underline;
+
 }
 
 .introducao{
@@ -32,25 +41,26 @@ main{
 }
 .primeiro h2{
     color: #9595ea;
-    font-family: ;
+    font-family: 'Fira Sans', sans-serif;
     border-bottom: solid 1px #9595ea;
     width: 40%; /*AUMENTAR quando a tela aumentar */
     padding: 4px 0px;
     margin: auto;
-    font-size: 26px;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 .historia{
     margin: 30px 0px 0px;
 }
 .historia h3{
     color: gray;
-    font-family: ;
+    font-family: 'Rubik', sans-serif;
     font-size: 24px;
     margin: 0px 0px 30px 0px;
 }
 .historia p{
-    font-family: ;
-    font-size: ;
+    font-family:'Oxygen', sans-serif;
+    font-size: 19px;
 }
 .historia_img{
     margin: 50px 0px 50px 0px;
@@ -64,12 +74,13 @@ main{
 }
 .text-container h2{
     color: #9595ea;
-    font-family: ;
-    border-bottom: solid 1px #9595ea;
+    font-family: 'Fira Sans', sans-serif;
+    border-bottom: solid 2px #9595ea;
     width: 60%; /*AUMENTAR quando a tela aumentar */
     padding: 4px 0px;
     margin: auto;
-    font-size: 26px;
+    font-size: 28px;
+    text-transform: uppercase;
 }
 .painel-pai{
     margin: 40px 0px 0px 0px;
@@ -85,12 +96,12 @@ main{
     color: #933db9;
     font-size: 24px;
     margin: 8px 0px 0px;
-    font-family: ;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .painel-filho p{
     margin: 10px 0px 10px 0px;
     font-size: 18px;
-    font-family: ;
+    font-family:'Oxygen', sans-serif;
 }
 
 
@@ -102,7 +113,7 @@ main{
 }
 .text-container h2{
     color: #9595ea;
-    font-family: ;
+    font-family: 'Fira Sans', sans-serif;
     border-bottom: solid 1px #9595ea;
     width: 40%; /*AUMENTAR quando a tela aumentar */
     padding: 4px 0px;
@@ -111,7 +122,7 @@ main{
 }
 .text-container p{
     margin-top: 20px;
-    font-family: 
+    font-family:'Oxygen', sans-serif;
 }
 .row .col.s12 {
   width: 100%;
@@ -182,30 +193,35 @@ main{
     width: 300px;
 }
 
-
-.projetos-painel-objeto{
+ .projetos-painel-objeto{
+    width: 90%;
+    margin: auto;
+ }
+ .projetos-painel-objeto img{
+    width: 85%;
+    border-radius: 20px;
+ }
+ .projetos-painel-objeto-text{
+    text-align: center;
     margin: 30px 0px 40px 0px;
-}
-.projetos-painel-objeto img{
-    max-width: 80%;
-    border-radius: 20px 20px;
-}
-.projetos-painel-objeto h3{
-    font-family: ;
+ }
+ .projetos-painel-objeto-text h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+ }
+ .projetos-painel-objeto-text p{
+    text-align: justify;
+    font-family:'Oxygen', sans-serif;
     font-size: 18px;
-    margin-top: 20px;
-}
-.projetos-painel-objeto p{
-    font-family: ;
-    font-size: 16px;
-} 
+ }
+
 
 .rodape{
     background-color: #040415;
     color: white;
     font-size: 15px;
     text-align: center;
-    font-family: ;
+    font-family: 'Ubuntu', sans-serif;
 }
 .rodape p:nth-child(1){
     background-color: #14144b;
@@ -225,6 +241,9 @@ main{
 
 .rodape a{
     color: #c9c5c5;
+}
+.fab:first-child{
+    margin: 0px 20px 0px 8px;
 }
 
 
@@ -276,16 +295,19 @@ main{
     .equipe-painel-objeto{
         width: 18rem;
     }
-    .projetos-painel{
-        padding: 1em;
+    .projetos-painel-objeto{
+        width: 100%;
     }
     .projetos-painel-objeto img{
-        width: 20%;
+        max-width: 45%;
+        height: 290px;
         float: left;
-        margin: 30px 20px 10px 0px;
+        margin: 0px 20px 0px 0px;
     }
-    .projetos-painel-objeto h3 p{
-        width: 60%;
+    .projetos-painel-objeto p{
+        font-size: 17px;
+        margin: 5px 0px 10px 10px;
+
     }
    
 }
@@ -298,6 +320,16 @@ main{
     .navbar-nav{
         margin: 0px 0px 0px 53%;
         width: 90%;
+    }
+    .projetos-painel-objeto img{
+        max-width: 37%;
+        height: 290px;
+        float: left;
+        margin: 0px 20px 0px 0px;
+    }
+    .projetos-painel-objeto-text p:nth-child(3){
+        text-align: right;
+        margin: 20px 0px 0px;
     }
 }
 
@@ -315,6 +347,15 @@ main{
     .text-container h2{
         max-width: 20%;
     }
+    .projetos-painel-objeto img{
+        max-width: 33%;
+        height: 290px;
+        float: left;
+        margin: 0px 20px 0px 0px;
+    }
+    .projetos-painel-objeto-text p:nth-child(3){
+        text-align: right;
+    }
 
 }
 
@@ -327,13 +368,15 @@ main{
     .navbar-nav{
         margin: 0px 0px 0px 69%;
         width: 90%;
-        
-        
     }
+    .projetos-painel-objeto img{
+        max-width: 27%;
+        height: 290px;
+        float: left;
+        margin: 0px 20px 0px 0px;
+    }
+    
 }
-
-
-
 
 
 
