@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--<meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>QUIZ DA PERSONALIDADE</title>
+</head>
+<body>
+    <div id="heading">
+		<h1 id="text">QUIZ DA PERSONALIDADE</h1>
+	</div>
+
+	<div id="quiz">
+		<p>As palavras tem relação com o comportamento e pensamento de cada um, escolha em cada conjunto a que mais lhe identifica e ao final descubra qual perfil que lhe representa.</p>
+		<div id="question"></div>
+		
+		<label class="option" for="">
+			<input type="radio" name="option"  value="1">
+			<span id="option1"></span>
+		</label>
+
+		<label class="option" for="">
+			<input type="radio" name="option" value="2">
+			<span id="option2"></span>
+		</label>
+
+		<label class="option" for="">
+			<input type="radio" name="option" value="3">
+			<span id="option3"></span>
+		</label>
+
+		<label class="option" for="">
+			<input type="radio" name="option" value="4">
+			<span id="option4"></span>
+		</label>
+		<div>
+			<button id="next" onclick="nextques();">Próximo Conjunto</button>
+			<!-- <button id="quit" onclick="quit();">Quit</button> -->
+		</div>
+	</div>
+	<div id="result" style="display: 'none';">
+		
+		<div id="imagem"><img id="animal"></div>
+		<div id="nAnimal"></div>		
+		<div id="perfil"></div>
+		<button id="quit" onclick="nextPerfil();">Próximo Perfil</button>
+		<!-- <p>A personalidade que mais lhe representa é: </p>
+		<span id="perfil"></span> -->
+	</div>
+	<footer>
+		<img id="logo" src="./img/LOGO UNIFANOR BRANCO.png">
+		<p>&copy;Copyright Fábrica de Software. Este site foi elaborado por alunos do Centro Universitário Fanor.</p>
+	</footer>
+	<script src="questions.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
