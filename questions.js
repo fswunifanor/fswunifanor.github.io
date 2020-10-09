@@ -1,16 +1,16 @@
-Ôªøvar questions = [
-    ["Conjunto","A. Idealismo","B. Meticulosidade", "C. Divers√£o", "D. Persist√™ncia"],
-    [" Conjunto","A. Inova√ß√£o", "B. Organiza√ß√£o", "C. Integra√ß√£o", "D.Execu√ß√£o" ],
-    [" Conjunto","A. Liberdade", "B. Controle", "C. Compreens√£o", "D. Paci√™ncia"],
+var questions = [
+    ["Conjunto","A. Idealismo","B. Meticulosidade", "C. Divers„o", "D. PersistÍncia"],
+    [" Conjunto","A. InovaÁ„o", "B. OrganizaÁ„o", "C. IntegraÁ„o", "D.ExecuÁ„o" ],
+    [" Conjunto","A. Liberdade", "B. Controle", "C. Compreens„o", "D. PaciÍncia"],
     [" Conjunto","A. Escolha", "B. Melhoria", "C. Lazer", "D. Autonomia"],
     [" Conjunto","A. Criatividade", "B. Pontualidade", "C. Parceria", "D.Foco"],
-    [" Conjunto","A. Adapta√ß√£o", "B. Consist√™ncia", "C. Equipe", "D. L√≠der"],
-    ["Conjunto", "A. Mudan√ßa", "B. Rotina", "C. Amizade", "D. Produtividade"],
+    [" Conjunto","A. AdaptaÁ„o", "B. ConsistÍncia", "C. Equipe", "D. LÌder"],
+    ["Conjunto", "A. MudanÁa", "B. Rotina", "C. Amizade", "D. Produtividade"],
 ];
 
 var perfil = [
-    ["√ÅGUIA","√â o idealizador. Uma pessoa que gosta de fazer as coisas de forma diferente. Algumas das principais caracter√≠sticas dessa pessoa √© a curiosidade, a criatividade, a intui√ß√£o, a flexibilidade, a busca pela liberdade, a vis√£o de futuro e a inova√ß√£o."],
-    ["LOBO", "√â o organizador. Sempre atento ao planejamento, pontualidade e controle. Detalhista, conservador, met√≥dico, previs√≠vel, leal, com dificuldade de adapta√ß√£o a mudan√ßas e respons√°vel com a realiza√ß√£o do combinado ainda s√£o algumas de suas caracter√≠sticas."],
-    ["GATO", "√â o comunicador. Tamb√©m sens√≠vel, que gosta de trabalhar em equipe e se relacionar com outras pessoas. Esse perfil tem como caracter√≠stica a necessidade de ser aceito socialmente, colocar a felicidade acima dos resultados, ser reconhecido por sua equipe e gostar de trabalhar em um ambiente harm√¥nico."],
-    ["TUBAR√ÉO", "√â o executor. Aquele caracterizado por pessoas que atuam em busca do resultado, senso de urg√™ncia, impulsividade, praticidade, com foco no futuro e comprometido com objetivos."]
+    ["¡GUIA","… o idealizador. Uma pessoa que gosta de fazer as coisas de forma diferente. Algumas das principais caracterÌsticas dessa pessoa È a curiosidade, a criatividade, a intuiÁ„o, a flexibilidade, a busca pela liberdade, a vis„o de futuro e a inovaÁ„o."],
+    ["LOBO", "… o organizador. Sempre atento ao planejamento, pontualidade e controle. Detalhista, conservador, metÛdico, previsÌvel, leal, com dificuldade de adaptaÁ„o a mudanÁas e respons·vel com a realizaÁ„o do combinado ainda s„o algumas de suas caracterÌsticas."],
+    ["GATO", "… o comunicador. TambÈm sensÌvel, que gosta de trabalhar em equipe e se relacionar com outras pessoas. Esse perfil tem como caracterÌstica a necessidade de ser aceito socialmente, colocar a felicidade acima dos resultados, ser reconhecido por sua equipe e gostar de trabalhar em um ambiente harmÙnico."],
+    ["TUBAR√O", "… o executor. Aquele caracterizado por pessoas que atuam em busca do resultado, senso de urgÍncia, impulsividade, praticidade, com foco no futuro e comprometido com objetivos."]
 ];
